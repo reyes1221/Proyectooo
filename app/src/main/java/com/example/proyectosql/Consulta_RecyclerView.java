@@ -1,4 +1,4 @@
-package com.example.proyectoomysql;
+package com.example.proyectosql;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -19,6 +19,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.example.proyectosql.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -36,7 +37,7 @@ public class Consulta_RecyclerView extends AppCompatActivity {
     List<Productos> productosList;
     RecyclerView recyclerView;
 
-    ProductsAdapter adapter;
+    com.example.proyectoomysql.ProductsAdapter adapter;
 
     AlertDialog.Builder dialogo;
 

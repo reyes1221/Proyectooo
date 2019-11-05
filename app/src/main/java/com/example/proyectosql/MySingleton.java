@@ -1,4 +1,4 @@
-package com.example.proyectoomysql;
+package com.example.proyectosql;
 
 import android.content.Context;
 import android.graphics.Bitmap;

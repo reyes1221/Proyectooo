@@ -1,8 +1,10 @@
-package com.example.proyectoomysql;
+package com.example.proyectosql;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.proyectosql.R;
 
 public class Login extends AppCompatActivity {
 
